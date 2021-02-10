@@ -1,0 +1,4 @@
+when game ends:
+	var parsed = JSON.parse(localStorage.gameState)
+	parsed['score'] <- get scores on end game
+
